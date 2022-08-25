@@ -1,7 +1,6 @@
 import introUrinalPicture from "./introUrinalPicture.jpeg";
 const IntroPage = (props) => {
   const nextPage = props.nextPage;
-  const onWin = props.onWin;
   return (
     <div className="firstPage">
       <h1 className="title"> Welcome to the Urinal Test </h1>
